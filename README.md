@@ -63,6 +63,15 @@ The packaging process can take up to **5 minutes**.
 
 If you get any errors, then you might have selected the wrong rom. Make sure to use a rom consistent with the above checksum.
 
+### Valve Steam Deck Rom Extraction
+
+* Follow the Linux steps above.
+* In shipofharkinian.json, scroll to the bottom and change:
+* "Fullscreen": {
+            "Enabled": true,
+            "Height": 800,
+            "Width": 1280
+
 ### MacOS Rom Extraction
 
 * Run `soh.app`, and when prompted, select one of the supported roms listed above.
@@ -81,6 +90,7 @@ If you get an error saying `Incompatible ROM hash`, you have selected the wrong 
 
 * Download the latest PC release of the Ship of Harkinian, and follow the instructions above for generating the `oot.otr` archive on that platform.
 * Copy the `.rpx` and the `oot.otr` archive to `wiiu/apps/soh`
+
 
 ---
 
